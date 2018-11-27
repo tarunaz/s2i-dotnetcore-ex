@@ -1,4 +1,10 @@
-﻿@{
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -66,8 +72,8 @@
 </div>
 
 <div class="row">
-    <div background-color: red; class="col-md-3">
-        <h2>Application uses</h2>
+    <div class="col-md-3">
+        <h2 class="red-text">Application uses</h2>
         <ul>
             <li>Sample pages using ASP.NET Core MVC</li>
             <li><a href="https://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side libraries</li>
